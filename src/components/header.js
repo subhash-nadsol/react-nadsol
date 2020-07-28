@@ -1,14 +1,16 @@
 import React, {Component, Fragment} from 'react';
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons' 
 
 class Header extends Component {
     render(){
         return(
             <Fragment>
-                <div classNameName="container-fluid menu">
+                <div className="container-fluid menu">
                 {/* Logo Section Starts */}
-          <div classNameName="logo">
-            <Link to={`/home`}><img src="../../src/assets/images/logo/logo.png" alt="Logo" /></Link>
+          <div className="logo">
+            <Link to={`/home`}><img src="assets/images/logo/logo.png" alt="Logo" /></Link>
           </div>
            {/* Logo Section Ends  */}
 
@@ -17,17 +19,17 @@ class Header extends Component {
               <ul className="nav top-nav custom-navigation">
                 <li className="nav-item">
                   <Link className="nav-link active" to={`/home`}>
-                  <i className="fab fa-facebook-f"></i>
+                  <FontAwesomeIcon icon={faFacebookF} className="font-icon" />
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link active" to={`/home`}>
-                  <i className="fab fa-linkedin-in"></i>
+                  <FontAwesomeIcon icon={faLinkedinIn} className="font-icon" />
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link active" to={`/home`}>
-                  <i className="fab fa-twitter"></i>
+                  <FontAwesomeIcon icon={faTwitter} className="font-icon" />
                   </Link>
                 </li>
               </ul>
