@@ -1,7 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 class Home extends Component{
 
     render(){
@@ -9,7 +9,8 @@ class Home extends Component{
          dots: false,
          infinite: true,
          slidesToShow: 4,
-         slidesToScroll: 1         
+         slidesToScroll: 1,
+         speed: 500       
         }
         return(
             <Fragment>
@@ -139,8 +140,7 @@ technical excellence help companies to get ahead and be ready for future.
 
         <div class="wedo-banner container-fluid">
           <div class="container wedo-continer">
-            <div class="row slider" {...settings}>
-
+            <Slider class="row slider" {...settings}>
               <div class="col-md-12 wedo-col-3 scroll-blocks slide">
                 <div class="card">
                 <img src="assets/images/application.jpg" class="card-img-top" alt="Application" />
@@ -189,7 +189,7 @@ technical excellence help companies to get ahead and be ready for future.
               </div>
 
 
-            </div>
+            </Slider>
           </div>
         </div>
        {/* <!-- Team Section Starts --> */}

@@ -1,7 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons' 
+import { faFacebookF, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 class Header extends Component {
     render(){
@@ -46,40 +46,40 @@ class Header extends Component {
                       <div className="dropdown-menu dflex-drop" aria-labelledby="navbarDropdown">
                         <div className="first-drop">
                           <Link className="dropdown-item" to={`/application-development`}>Application Development</Link>
-                          <Link className="dropdown-item" href="portal-design.html">Portal Design & Content Management System</Link>
-                          <Link className="dropdown-item" href="mobile-application.html">Mobile Application Development</Link>
-                          <Link className="dropdown-item" href="cloud-services.html">Cloud Services</Link>
-                          <Link className="dropdown-item" href="iot.html">Internet of Things (IoT)</Link>
-                          <Link className="dropdown-item" href="experiance-design.html">Experience Design  </Link>
+                          <Link className="dropdown-item" to={`/portal-design`}>Portal Design & Content Management System</Link>
+                          <Link className="dropdown-item" to={`/mobile-application`}>Mobile Application Development</Link>
+                          <Link className="dropdown-item" to={`/cloud-services`}>Cloud Services</Link>
+                          <Link className="dropdown-item" to={`/iot`}>Internet of Things (IoT)</Link>
+                          <Link className="dropdown-item" to={`/experiance-design`}>Experience Design  </Link>
                         </div>
                         <div className="second-drop">
-                      <Link className="dropdown-item" href="architecture.html">Architecture</Link>
-                      <Link className="dropdown-item" href="cyber-security.html">Cyber Security</Link>
-                      <Link className="dropdown-item" href="enterprise-applications.html">Enterprise Applications</Link>
-                      <Link className="dropdown-item" href="digital-marketing.html">Digital Marketing Services</Link>
-                      <Link className="dropdown-item" href="application-maintenance.html">Application Maintenance</Link>
+                      <Link className="dropdown-item" to={`/architecture`}>Architecture</Link>
+                      <Link className="dropdown-item" to={`/cyber-security`}>Cyber Security</Link>
+                      <Link className="dropdown-item" to={`/enterprise-application`}>Enterprise Applications</Link>
+                      <Link className="dropdown-item" to={`/digital-marketing`}>Digital Marketing Services</Link>
+                      <Link className="dropdown-item" to={`/application-maintenance`}>Application Maintenance</Link>
                       </div>
                       </div>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" href="industry.html">Industries</Link>
+                      <Link className="nav-link" to={`/industry`}>Industries</Link>
                     </li>
                     <li className="nav-item">
                       <Link className="nav-link" href="products.html">Products</Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" href="team.html">Our Team</Link>
+                      <Link className="nav-link" to={`/team`}>Our Team</Link>
                     </li>
                     <li className="nav-item">
                       <Link className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Company</Link>
                       <div className="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
-                        <Link className="dropdown-item" href="about.html">About NADSOL</Link>
-                        <Link className="dropdown-item" href="vision.html">Mission & Values</Link>
-                        <Link className="dropdown-item" href="location.html">Locations</Link>
+                        <Link className="dropdown-item" to={`/about`}>About NADSOL</Link>
+                        <Link className="dropdown-item" to={`/vision`}>Mission & Values</Link>
+                        <Link className="dropdown-item" to={`/location`}>Locations</Link>
                       </div>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" href="careers.html">Careers</Link>
+                      <Link className="nav-link" to={`/careers`}>Careers</Link>
                     </li>
                   </ul>
                 </div>

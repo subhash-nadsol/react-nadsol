@@ -517,7 +517,7 @@ html,body
 }
 .wedo-col-3
 {
-    max-width: 24%;
+    /* max-width: 24%; */
     margin: auto;
 }
 .scroll-blocks .card
@@ -879,10 +879,10 @@ html,body
     font-weight: 600;
     color: #525252;
 }
-.footer-social .fab.fa-twitter, .fab.fa-linkedin, .fab.fa-youtube, .fab.fa-facebook
+.footer-social .ftr-socl-icons
 {
     color: #525252;
-    padding: 25px 15px 0px 10px;
+    margin: 25px 15px 0px 10px;
     font-size: 23px;
 }
 .footer-nav
@@ -2749,4 +2749,25 @@ html,body
     color: #c71f27;
     text-align: center;
     font-size: 30px;
+}
+
+/* Admin Section Starts */
+.admn_frm
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.admin_frm .form-group
+{
+    margin-bottom: 1px;
+}
+.admin_frm .form-group .form-control, .admin_frm .form-group label
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.admin_frm .form-group .form-control:focus
+{
+    box-shadow: none;
 }
