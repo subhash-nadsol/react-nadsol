@@ -140,7 +140,7 @@ technical excellence help companies to get ahead and be ready for future.
         <div class="container">
            <div class="row mt-1">
              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 col-12 team-col">
-               <a href="team.html">
+               <Link to={`team`}>
                    <div class="card team-card">
                  <div class="card-head">
                    <img src="assets/images/team/1.jpg" class="card-img-top" alt="Team" />
@@ -152,10 +152,10 @@ technical excellence help companies to get ahead and be ready for future.
                    <p class="card-text">Founder & Chief Executive Officer</p>
                  </div>
                </div>
-               </a>
+               </Link>
              </div>
              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 col-12 team-col">
-               <a href="team.html">
+               <Link to={`team`}>
                    <div class="card team-card">
                  <div class="card-head">
                    <img src="assets/images/team/2.jpg" class="card-img-top" alt="Team" />
@@ -167,10 +167,10 @@ technical excellence help companies to get ahead and be ready for future.
                    <p class="card-text">Solution Architect</p>
                  </div>
                </div>
-               </a>
+               </Link>
              </div>
              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 col-12 team-col">
-               <a href="team.html">
+               <Link to={`team`}>
                    <div class="card team-card">
                  <div class="card-head">
                    <img src="assets/images/team/3.jpg" class="card-img-top" alt="Team" />
@@ -182,13 +182,13 @@ technical excellence help companies to get ahead and be ready for future.
                    <p class="card-text">Enterprise Architect</p>
                  </div>
                </div>
-               </a>
+               </Link>
              </div>
            </div>
 
            <div class="row mt-5 pt-3 rspnsv-row">
              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 col-12 team-col">
-               <a href="team.html">
+               <Link to={`team`}>
                    <div class="card team-card">
                  <div class="card-head">
                    <img src="assets/images/team/6.jpg" class="card-img-top" alt="Team" />
@@ -200,10 +200,10 @@ technical excellence help companies to get ahead and be ready for future.
                    <p class="card-text">Mentor</p>
                  </div>
                </div>
-               </a>
+               </Link>
              </div>
              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 col-12 team-col">
-               <a href="team.html">
+               <Link to={`team`}>
                    <div class="card team-card">
                  <div class="card-head">
                    <img src="assets/images/team/4.jpg" class="card-img-top" alt="Team" />
@@ -215,10 +215,10 @@ technical excellence help companies to get ahead and be ready for future.
                    <p class="card-text">Director - Sales, Canada</p>
                  </div>
                </div>
-               </a>
+               </Link>
              </div>
              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 col-12 team-col">
-               <a href="team.html">
+               <Link to={`team`}>
                    <div class="card team-card">
                  <div class="card-head">
                    <img src="assets/images/team/5.jpg" class="card-img-top" alt="Team" />
@@ -230,7 +230,7 @@ technical excellence help companies to get ahead and be ready for future.
                    <p class="card-text">Director - Technology</p>
                  </div>
                </div>
-               </a>
+               </Link>
              </div>
            </div>
 
