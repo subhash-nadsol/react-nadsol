@@ -1,17 +1,9 @@
 import React, {Component, Fragment} from 'react';
-import Slider from "react-slick";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
+import SlickSlider from './slick';
+
 class Home extends Component{
 
     render(){
-        var settings ={
-         dots: false,
-         infinite: true,
-         slidesToShow: 4,
-         slidesToScroll: 1,
-         speed: 500       
-        }
         return(
             <Fragment>
                 <div class="container-fluid banner">
@@ -133,65 +125,8 @@ technical excellence help companies to get ahead and be ready for future.
 
     <div class="clear-both hght-20"></div>
 
-        <div class="wedo">
-          <h2>What we do</h2>
-          <p>We analyse your working environment, designing systems to meet your business objectives.</p>
-        </div>
+      <SlickSlider />
 
-        <div class="wedo-banner container-fluid">
-          <div class="container wedo-continer">
-            <Slider class="row slider" {...settings}>
-              <div class="col-md-12 wedo-col-3 scroll-blocks slide">
-                <div class="card">
-                <img src="assets/images/application.jpg" class="card-img-top" alt="Application" />
-                <div class="card-body">
-                  <h5 class="card-title">Applications Development</h5>
-                  <p class="card-text">We help create contextual user experience environments that enable interactions with your brand.</p>
-                  <a href="application-development.html" class="btn">Read More</a>
-                </div>
-                </div>
-              </div>
-
-              <div class="col-md-12 wedo-col-3 scroll-blocks slide">
-                <div class="card">
-                <img src="assets/images/mobile.jpg" class="card-img-top" alt="Application" />
-                <div class="card-body">
-                  <h5 class="card-title">Mobile Applications
-                    Development</h5>
-                  <p class="card-text">We are delivering Custom Mobile Application Development Services For Startups, Small Businesses</p>
-                  <a href="mobile-application.html" class="btn">Read More</a>
-                </div>
-                </div>
-              </div>
-
-              <div class="col-md-12 wedo-col-3 scroll-blocks slide">
-                <div class="card">
-                <img src="assets/images/enterprise.jpg" class="card-img-top" alt="Application" />
-                <div class="card-body">
-                  <h5 class="card-title">Enterprise
-                    Applications</h5>
-                  <p class="card-text">Our expertise in SharePoint Development and BizTalk Development enables the organization to leverage</p>
-                  <a href="enterprise-applications.html" class="btn">Read More</a>
-                </div>
-                </div>
-              </div>
-
-              <div class="col-md-12 wedo-col-3 scroll-blocks slide">
-                <div class="card">
-                  <img src="assets/images/iot.jpg" class="card-img-top" alt="Application" />
-                  <div class="card-body">
-                    <h5 class="card-title">Internet of things 
-                      (IoT)</h5>
-                    <p class="card-text">Our Internet of Things services enables organizations to transform business needs into </p>
-                    <a href="iot.html" class="btn">Read More</a>
-                  </div>
-                </div>
-              </div>
-
-
-            </Slider>
-          </div>
-        </div>
        {/* <!-- Team Section Starts --> */}
        <div class="container-fluid team">
         <h6 class="team-head">Executive Team</h6>

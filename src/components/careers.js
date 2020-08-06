@@ -107,14 +107,14 @@ class Careers extends Component{
         this.state.userdata.map( (res)=>{
           return(
             <div class="card">
-            <div class="card-header" id="{ res.id }" data-toggle="collapse" data-target="#{ res.id }" aria-expanded="true" aria-controls="{ res.id }">
+            <div class="card-header" id="resid" data-toggle="collapse" data-target="#resname" aria-expanded="true" aria-controls="resname">
               <img src="assets/images/careers/plus.png" alt="" />
               <h4 class="mb-0 collapsed">
                   { res.title }
               </h4>
             </div>
         
-            <div id="{ res.id }" class="collapse" aria-labelledby="{ res.id }" data-parent="#accordionExample">
+            <div id="resname" class="collapse" aria-labelledby="resid" data-parent="#accordionExample">
               <div class="card-body">
                 <p>
                   Description: { res.description }
