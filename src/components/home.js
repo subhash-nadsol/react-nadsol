@@ -1,5 +1,6 @@
 import React, {Component, Fragment} from 'react';
 import SlickSlider from './slick';
+import { Link } from "react-router-dom";
 
 class Home extends Component{
 
@@ -81,7 +82,7 @@ clients. NADSOL has strong domain expertise, global work culture and
 technical excellence help companies to get ahead and be ready for future.
     </p>
 
-    <a href="about.html" class="btn btn-read">Read More</a>
+    <Link to={`/about`} class="btn btn-read">Read More</Link>
 
   </div>
 </div>
@@ -233,7 +234,7 @@ technical excellence help companies to get ahead and be ready for future.
              </div>
            </div>
 
-           <li><a href="team.html">Connect to more experts <i class="fas fa-chevron-right ml-2"></i></a></li>
+           <li><Link to={`/team`}>Connect to more experts <i class="fas fa-chevron-right ml-2"></i></Link></li>
         </div>
    </div>
    {/* <!-- Team Section Ends --> */}
